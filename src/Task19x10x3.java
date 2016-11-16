@@ -8,7 +8,7 @@ public class Task19x10x3 {
     public static List<PointEr> list = new ArrayList<>(); //для поиска закрывающего тега
     public static int count = 0; //для поиска закрывающего тега
     public static void main(String[] args) throws IOException{
-        System.out.println("Test 1");
+        System.out.println("Test collision");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         BufferedReader file = new BufferedReader(new FileReader(reader.readLine()));
         reader.close();
